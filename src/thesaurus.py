@@ -34,7 +34,3 @@ def get_synonyms() -> list:
     search_url = f"{BASE_URL}browse/{search_term}"
     synonyms = _get_synonyms_from(search_url)
     return synonyms
-
-
-if __name__ == "__main__":
-    get_synonyms()
