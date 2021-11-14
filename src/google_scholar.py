@@ -16,6 +16,3 @@ def get_result_nums(synonyms):
     for synonym in synonyms:
         search_url = f"{BASE_URL}scholar?hl=en&q={synonym}"
         _get_result_num(search_url)
-
-
-get_result_nums(["dog", "puppy"])
