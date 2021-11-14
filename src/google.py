@@ -22,9 +22,9 @@ class GoogleKeywordScreenshotTaker:
                 if count > 9:
                     break
 
-                results = self.driver.find_element_by_id("rso").find_elements_by_class_name(
-                    "g"
-                )
+                results = self.driver.find_element_by_id(
+                    "rso"
+                ).find_elements_by_class_name("g")
                 for index, result in enumerate(results):
                     class_name = result.get_attribute("class")
                     if "ymu2Hb" not in result.find_element_by_xpath(
