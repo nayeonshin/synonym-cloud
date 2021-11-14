@@ -26,7 +26,7 @@ def _get_synonyms_from(url: str) -> list:
 
 
 def get_synonyms() -> list:
-    """Get synonyms of a user input
+    """Get synonyms of a user input.
 
     :return: list of synonyms
     """
