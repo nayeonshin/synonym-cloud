@@ -4,11 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
-
-
-driver.get("https://scholar.google.com")
-
 
 def find_num(result_str):
     num = 0
@@ -22,6 +17,9 @@ def find_num(result_str):
 
 
 def get_scholar_results(synonyms):
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+
+    driver.get("https://scholar.google.com")
     result_dict = {}
 
     for word in synonyms:
@@ -48,7 +46,3 @@ def get_scholar_results(synonyms):
         result_dict[word] = num_results
 
     return result_dict
-
-
-while True:
-    pass
