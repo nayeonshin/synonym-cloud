@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from PIL.Image import BILINEAR
-from wordcloud import WordCloud as wc
+from wordcloud import WordCloud
 
 # sample data dictionary
 sample_dict = {
@@ -12,14 +12,14 @@ sample_dict = {
 }
 
 
-def create_cloud(dict):
+def create_cloud(dict_):
     # choose colors
     bg_color = input("Enter background color: \n")
     word_color = input("Enter word color story: \n")
     # list of color options can be found here: https://matplotlib.org/stable/tutorials/colors/colormaps.html
 
     # create word cloud object
-    hashtag_cloud = wc(
+    hashtag_cloud = WordCloud(
         background_color=bg_color,
         colormap=word_color,
         height=1000,
