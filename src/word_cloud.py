@@ -26,7 +26,7 @@ def create_cloud(dict_):
         width=1000,
         max_words=10,
     )
-    hashtag_cloud.generate_from_frequencies(dict)
+    hashtag_cloud.generate_from_frequencies(dict_)
 
     # show the cloud
     plt.imshow(hashtag_cloud)
