@@ -14,13 +14,13 @@ sample_dict = {
 
 def create_cloud(dict):
     # choose colors
-    bkgrnd_color = input("Enter background color: \n")
+    bg_color = input("Enter background color: \n")
     word_color = input("Enter word color story: \n")
     # list of color options can be found here: https://matplotlib.org/stable/tutorials/colors/colormaps.html
 
     # create word cloud object
     hashtag_cloud = wc(
-        background_color=bkgrnd_color,
+        background_color=bg_color,
         colormap=word_color,
         height=1000,
         width=1000,
