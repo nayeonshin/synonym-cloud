@@ -13,8 +13,6 @@ test_data = ["dog", "hound", "canine", "pup", "puppy"]
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-result_dict = {}
-
 driver.get("https://scholar.google.com")
 
 
@@ -60,7 +58,6 @@ def get_scholar_results(synonyms):
     return result_dict
 
 
-# testing
 test_dict = get_scholar_results(test_data)
 
 print(test_dict)
