@@ -9,8 +9,11 @@ search_bar = driver.find_element_by_class_name("gLFyf")
 search_bar.send_keys("hello!")
 search_bar.send_keys(Keys.ENTER)
 
-results = driver.find_elements_by_class_name("g")
-print(results)
+results = driver.find_element_by_id("rso").find_elements_by_class_name("g")
+for result in results:
+    title = result.find_element_by_tag_name("h3")
+    if title:
+        print(title.text)
 
 # driver.quit()
 while True:
