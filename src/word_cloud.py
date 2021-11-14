@@ -32,3 +32,6 @@ def create_cloud(dict_):
     plt.imshow(hashtag_cloud)
     plt.axis("off")
     plt.show()
+
+
+create_cloud(sample_dict)
