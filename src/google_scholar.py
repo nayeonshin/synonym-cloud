@@ -29,7 +29,7 @@ def find_num(result_str):
     return num
 
 
-def scholar_results(synonyms):
+def get_scholar_results(synonyms):
     result_dict = {}
 
     for word in synonyms:
@@ -61,7 +61,7 @@ def scholar_results(synonyms):
 
 
 # testing
-test_dict = scholar_results(test_data)
+test_dict = get_scholar_results(test_data)
 
 print(test_dict)
 
