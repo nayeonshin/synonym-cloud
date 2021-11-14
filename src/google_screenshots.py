@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-class GoogleKeywordScreenshotTaker:
+class GoogleScreenshotTaker:
     def __init__(self, search_term):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
         self.search_term = search_term

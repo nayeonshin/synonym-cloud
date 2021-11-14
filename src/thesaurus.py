@@ -18,7 +18,7 @@ def _get_synonyms_from(url: str) -> list:
 
         synonyms = []
         for li in lis:
-            synonyms.append(li.text)
+            synonyms.append(li.text.strip())
         return synonyms
     except AttributeError:
         return []
