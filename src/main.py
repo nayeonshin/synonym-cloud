@@ -11,9 +11,9 @@ def main():
     taker.start()
     taker.finish()
 
-    # synonyms = get_synonyms(search_term)
-    # result_nums = get_scholar_results(synonyms)
-    # create_cloud(result_nums)
+    synonyms = get_synonyms(search_term)
+    result_nums = get_scholar_results(synonyms)
+    create_cloud(result_nums)
 
 
 if __name__ == "__main__":
