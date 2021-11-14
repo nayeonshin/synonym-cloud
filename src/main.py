@@ -1,6 +1,6 @@
+from google_scholar import get_scholar_results
 from google_screenshots import GoogleScreenshotTaker
 from thesaurus import get_synonyms
-from google_scholar import get_scholar_results
 from word_cloud import create_cloud
 
 

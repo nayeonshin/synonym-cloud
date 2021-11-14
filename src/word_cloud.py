@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
 from PIL.Image import BILINEAR
 from wordcloud import WordCloud as wc
-import matplotlib.pyplot as plt
 
 
 def create_cloud(results):
