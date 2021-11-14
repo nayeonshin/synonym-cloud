@@ -23,6 +23,11 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
 button {
   color: black;
 }
