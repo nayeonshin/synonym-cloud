@@ -32,7 +32,7 @@ class GoogleKeywordScreenshotTaker:
                     ).get_attribute("class"):
                         replaced_search_term = self.search_term.replace(" ", "_")
                         result.screenshot(
-                            f"../screenshots/{replaced_search_term}x{count}x{index}.png"
+                            f"screenshots/{replaced_search_term}x{count}x{index}.png"
                         )
 
                 next_page_button.click()
@@ -43,8 +43,3 @@ class GoogleKeywordScreenshotTaker:
 
     def finish(self):
         self.driver.quit()
-
-
-shooter = GoogleKeywordScreenshotTaker("dog")  # TODO: Replace hardcoded user input
-shooter.start()
-shooter.finish()
