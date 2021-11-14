@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-class GoogleKeywordScreenShooter:
+class GoogleKeywordScreenshotTaker:
     def __init__(self, search_term):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
         self.search_term = search_term
@@ -45,6 +45,6 @@ class GoogleKeywordScreenShooter:
         self.driver.quit()
 
 
-shooter = GoogleKeywordScreenShooter("dog")  # TODO: Replace hardcoded user input
+shooter = GoogleKeywordScreenshotTaker("dog")  # TODO: Replace hardcoded user input
 shooter.start()
 shooter.finish()
