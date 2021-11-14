@@ -25,12 +25,12 @@ def _get_synonyms_from(url: str) -> list:
         return []
 
 
-def get_synonyms() -> list:
+def get_synonyms(search_term: str) -> list:
     """Get synonyms of a user input.
 
+    :param search_term: user's search term
     :return: list of synonyms
     """
-    search_term = input("Search: ").lower()
     search_url = f"{BASE_URL}browse/{search_term}"
     synonyms = _get_synonyms_from(search_url)
     return synonyms
