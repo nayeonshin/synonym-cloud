@@ -4,14 +4,15 @@ Synonym Cloud is an Internet bot that screenshots Google pages and displays syno
 Authors: Emily N., Nayeon S.
 
 ## Required:
-- bs4
-- Matplotlib
-- PIL
-- Requests
-- Selenium
-- WordCloud
+- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Matplotlib](https://matplotlib.org/3.5.0/index.html)
+- [PIL](https://pillow.readthedocs.io/en/stable/)
+- [Requests](https://docs.python-requests.org/en/latest/)
+- [Selenium](https://selenium-python.readthedocs.io/)
+- [Webdriver Manager for Python](https://github.com/SergeyPirogov/webdriver_manager)
+- [WordCloud](https://amueller.github.io/word_cloud/)
 
-## To run the project
+## To Run the Project
 1. Create an empty folder called `screenshots` in the main directory.
 2. `$ python main.py`
 
