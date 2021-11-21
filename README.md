@@ -3,7 +3,7 @@
 Authors: Emily N., Nayeon S.
 
 ## Required:
-- BeautifulSoup
+- bs4
 - Matplotlib
 - PIL
 - Requests
@@ -11,5 +11,6 @@ Authors: Emily N., Nayeon S.
 - WordCloud
 
 ## To run the project:
-1. Create empty `\screenshots` in the main directory
-2. `$ python main.py`
+1`$ python main.py`
+
+## Results:
