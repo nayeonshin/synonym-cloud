@@ -11,7 +11,8 @@ Authors: Emily N., Nayeon S.
 - WordCloud
 
 ## To run the project
-`$ python main.py`
+1. Create an empty directory called `screenshots`
+2. `$ python main.py`
 
 ## Results
 e.g. Input `Machine Learning`
