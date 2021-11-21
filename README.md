@@ -11,7 +11,7 @@ Authors: Emily N., Nayeon S.
 - WordCloud
 
 ## To run the project
-1. Create an empty directory called `screenshots`
+1. Create an empty folder called `screenshots` in the main directory.
 2. `$ python main.py`
 
 ## Results
