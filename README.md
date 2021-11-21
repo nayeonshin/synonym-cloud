@@ -22,3 +22,4 @@ e.g. Input `Machine Learning`
 ![Google Screenshot](/assets/google_screenshot.png)
 ### Word Cloud
 ![Word Cloud](/assets/word_cloud.png)
+
