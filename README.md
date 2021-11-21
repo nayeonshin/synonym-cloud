@@ -10,7 +10,12 @@ Authors: Emily N., Nayeon S.
 - Selenium
 - WordCloud
 
-## To run the project:
-1`$ python main.py`
+## To run the project
+`$ python main.py`
 
-## Results:
+## Results
+e.g. Input `Machine Learning`
+### One of the Google screenshots created inside `/screenshots`
+![Google Screenshot](/assets/google_screenshot.png)
+### Word Cloud
+![Word Cloud](/assets/word_cloud.png)
