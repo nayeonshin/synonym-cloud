@@ -1,4 +1,5 @@
 # Synonym Cloud
+Synonym Cloud is an Internet bot that automatically screenshots Google search result pages and displays synonyms for user input as a word cloud.
 
 Authors: Emily N., Nayeon S.
 
