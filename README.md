@@ -12,7 +12,7 @@ Authors: Emily N., Nayeon S.
 - [Webdriver Manager for Python](https://github.com/SergeyPirogov/webdriver_manager)
 - [WordCloud](https://amueller.github.io/word_cloud/)
 
-## To Run the project
+## To run the project
 1. Create an empty folder called `screenshots` in the main directory.
 2. `$ python main.py`
 
