@@ -12,13 +12,15 @@ Authors: Emily N., Nayeon S.
 - [Webdriver Manager for Python](https://github.com/SergeyPirogov/webdriver_manager)
 - [WordCloud](https://amueller.github.io/word_cloud/)
 
-## To run the project
-1. Create an empty folder called `screenshots` in the main directory.
-2. `$ python main.py`
+## To Run the Project
+```bash
+$ mkdir screenshots && cd screenshots
+$ python main.py
+```
 
 ## Results
 e.g. Input `Machine Learning`
-### One of the screenshots created inside `/screenshots`
+### One of the Screenshots Created Inside `/screenshots`
 ![Google Screenshot](/assets/google_screenshot.png)
 ### Word cloud
 ![Word Cloud](/assets/word_cloud.png)
