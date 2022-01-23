@@ -14,7 +14,7 @@ Authors: Emily N., Nayeon S.
 
 ## To Run the Project
 ```bash
-$ mkdir screenshots && cd screenshots
+$ mkdir screenshots
 $ python main.py
 ```
 
